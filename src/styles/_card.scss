@@ -1,0 +1,39 @@
+.card{
+    display: flex;
+    justify-content: space-around;
+    transform: translateX(-70);
+    transform: translateY(40%);
+  
+
+    .circle{
+        border: 1px solid rgba(105, 105, 105, 0.384);
+        height: 70px;
+        width: 70px;
+        background: rgba(128, 128, 128, 0.274);
+        border-radius: 50%;
+        display: flex;
+        margin-right: 10px;
+        justify-content: center;
+        align-items: center;
+        transform: translateY(-33%);
+    }
+    .circle i{
+        font-size: 2rem;
+        font-weight: bold;
+        color: white;
+    }
+    .icon{
+        padding: 10px;
+    }
+    .card-content,h1,p{
+        color: white;
+    }
+    .card-content h1{
+        font-weight: 700;
+        line-height: 15px;
+        margin-bottom: 5px;
+    }
+    .card-content p{
+        text-align: justify;
+    }
+}

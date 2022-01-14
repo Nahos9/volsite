@@ -1,0 +1,26 @@
+.App{
+   
+    background: url(../../public/img/mercedes.jpg) center/cover fixed;
+    .title{
+        text-align: center;
+        padding-top: 15px;
+        font-size: 1.2rem;
+        font-weight: 800;
+        color: white;
+    }
+    .title-1{
+        text-align: center;
+        color: white;
+        font-size: 2.3rem;
+        font-weight: 800;
+        line-height: 48px;
+    }
+    .title-1 span{
+        color: $color-1;
+        font-size: 2rem;
+    }
+    .app-content{
+        display: flex;
+        justify-content: space-around;
+    }
+}
